@@ -60,7 +60,11 @@ var setPositionElement = function ( element, parent ) {
 				break;
 			case '#rhombus_services' :
 				w = parseInt( ( ( w_parent / 2 ) - ( w_el / 2 ) ) );
-				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 ) ) );
+				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 - 20 ) ) );
+				break;
+			case '#bg_line_services' :
+				w = parseInt( ( ( w_parent / 2 ) - ( w_el / 2) ) );
+				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 + 30) ) );
 				break;
 		}		
 
@@ -91,6 +95,7 @@ $(document).ready(function() {
 	var setPositionRhombusLines = new setPositionElement('#rhombus_lines');
 	var setPositionShadowLogo = new setPositionElement('#shadow_logo');
 	var setPositionRhombusDarkService = new setPositionElement('#rhombus_services','.container_services');
+	var setPositionBgLineServices = new setPositionElement('#bg_line_services','.container_services');
 
 	$( '#logo' ).fadeIn(1000, function() {
 		$( '#brightness_logo' ).fadeIn(1500, function() {
