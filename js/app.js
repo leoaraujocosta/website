@@ -58,7 +58,7 @@ var setPositionElement = function ( element, parent ) {
 				w = parseInt( ( ( w / 2 ) - ( w_el / 2 ) ) );
 				h = parseInt( ( ( h / 2 ) - ( h_el / 2 - 174) ) );
 				break;
-			case '' :
+			case '#rhombus_services' :
 				w = parseInt( ( ( w_parent / 2 ) - ( w_el / 2 ) ) );
 				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 ) ) );
 				break;
@@ -90,15 +90,15 @@ $(document).ready(function() {
 	var setPositionSecondRhombusDark = new setPositionElement('#second_rhombus_dark');
 	var setPositionRhombusLines = new setPositionElement('#rhombus_lines');
 	var setPositionShadowLogo = new setPositionElement('#shadow_logo');
-	var setPositionRhombusDarkService = new setPositionElement('#');
+	var setPositionRhombusDarkService = new setPositionElement('#rhombus_services','.container_services');
 
 	$( '#logo' ).fadeIn(1000, function() {
 		$( '#brightness_logo' ).fadeIn(1500, function() {
 			$( '#shadow_logo' ).fadeIn(900, function() {
-				$( '#rhombus_center' ).fadeIn(700, function() {
+				$( '#rhombus_center' ).fadeIn(1000, function() {
 					$( '#first_rhombus_dark' ).fadeIn(1000, function() {
 						$( '#second_rhombus_dark' ).fadeIn(800, function() {
-							$( '#rhombus_lines' ).fadeIn(300);
+							$( '#rhombus_lines' ).fadeIn(900);
 						});
 					});
 				});
