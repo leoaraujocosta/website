@@ -60,7 +60,7 @@ var setPositionElement = function ( element, parent ) {
 				break;
 			case '' :
 				w = parseInt( ( ( w_parent / 2 ) - ( w_el / 2 ) ) );
-				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 - 174) ) );
+				h = parseInt( ( ( h_parent / 2 ) - ( h_el / 2 ) ) );
 				break;
 		}		
 
