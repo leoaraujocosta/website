@@ -1,0 +1,19 @@
+.container-services {
+	width: 					100%;
+	height: 				600px;
+	background: 			$gray;
+	position: 				relative;
+
+	#rhombus-services {
+		position: 			absolute;
+		z-index: 			11;
+		top: 				calc(50% - 161px);
+		left: 				calc(50% - 50%);
+	}
+	#bg-line-services {
+		position: 			absolute;
+		z-index: 			12;
+		top: 				calc(50% - 131px);
+		left: 				calc(50% - 50%);
+	}
+}
