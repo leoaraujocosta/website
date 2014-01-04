@@ -5,43 +5,71 @@
 	position: 					relative;
 
 	#logo {
+		width: 					100%;
+		height: 				250px;
+		background: 			url('../images/logo.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 125px);
 		z-index: 				10;
 		display: 				none;
 	}
 
 	#brightness_logo {
+		width: 					100%;
+		height: 				701px;
+		background: 			url('../images/luz_logo.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 350px);	
 		z-index: 				9;
 		display: 				none;
 	}
 
 	#rhombus_center {
+		width: 					100%;
+		height: 				376px;
+		background: 			url('../images/bg1_centro.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 250px);
 		z-index: 				8;
 		display: 				none;
 	}
 
 	#first_rhombus_dark {
+		width: 					100%;
+		height: 				323px;
+		background: 			url('../images/bg2_escuro.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 138px);	
 		z-index: 				7;
 		display: 				none;
 	}
 
 	#second_rhombus_dark {
+		width: 					100%;
+		height: 				323px;
+		background: 			url('../images/bg3_escuro.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 260px);	
 		z-index: 				4;
 		display: 				none;
 	}
 
 	#rhombus_lines {
+		width: 					100%;
+		height: 				262px;
+		background: 			url('../images/bg_linhas.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% - 240px);	
 		z-index: 				5;
 		display: 				none;
 	}
 
 	#shadow_logo {
+		width: 					100%;
+		height: 				151px;
+		background: 			url('../images/sombra_logo.png') center no-repeat;
 		position: 				absolute;
+		top: 					calc(50% + 105px);	
 		z-index: 				6;
 		display: 				none;
 	}
