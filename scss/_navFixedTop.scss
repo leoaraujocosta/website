@@ -6,8 +6,9 @@
 
 	.title-area {
 		width: 							205px;
-		height: 						45px;
-		background: 					url('../images/logo_navFixedTop.png') center center no-repeat;
+		height: 						55px;
+		background: 					url('../images/logo_navFixedTop.png') center 10px no-repeat;
+		border-bottom: 					4px solid $boderRed;
 	}
 
 	.top-bar-section {
