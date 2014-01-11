@@ -1,13 +1,13 @@
 .top-bar {
-	height: 									65px !important;
+	height: 									70px !important;
 	background: 								none !important;
 	border-bottom: 								2px solid $silver;
 	padding-top: 								10px;
 
 	.title-area {
 		width: 									205px;
-		height: 								55px;
-		background: 							url('../images/logo_navFixedTop.png') center 10px no-repeat;
+		height: 								60px;
+		background: 							url('../images/logo_navFixedTop.png') center 15px no-repeat;
 		border-bottom: 							4px solid $boderRed;
 	}
 
@@ -16,14 +16,15 @@
 			background: 						none;
 
 			li {
-				
+
 				a {
 					font-family: 				geogrotesque_lglight;
 					font-size: 					1em;
 					color: 						$text;
 					background: 				none !important;
-					line-height: 				53px;
+					line-height: 				47px;
 					text-transform: 			uppercase;
+					margin-top: 				11px;
 
 					&:hover {
 						border-bottom: 			2px solid $boderRed;
@@ -40,5 +41,13 @@
 				}
 			}
 		}
+	}
+
+	.logo4 {
+		width: 									39px;
+		height: 								67px;
+		background: 							url('../images/4.png') center center no-repeat;
+		margin-left: 							3em;
+		margin-right: 							.4em;
 	}
 }
