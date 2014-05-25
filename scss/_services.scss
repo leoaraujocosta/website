@@ -1,23 +1,89 @@
 .container_services {
-	width: 						100%;
-	height: 					100%;
-	background: 				$gray;
-	position: 					relative;
+	width: 								100%;
+	height: 							100%;
+	background-image: 					url('../images/bg2_services.png'), url('../images/bg_linhas_services.png');
+	background-repeat: 					no-repeat, no-repeat;
+	background-position: 				center, center;
+	background-color: 					$gray;
+	position: 							relative;
 
-	#rhombus_services {
-		width: 					100%;
-		height: 				323px;
-		background: 			url('../images/bg2_services.png') center no-repeat;
-		position: 				absolute;
-		top: 					calc(50% - 138px);
-		z-index: 				11;
+	.wsg {
+
+		h2 {
+			font-family: 				$geo_regular;
+			font-size: 					$h2;
+			color: 						$red;
+			text-transform: 			uppercase;
+		}
+
+		h3 {
+			font-family: 				$geo_light;
+			font-size: 					$h3;
+			color: 						$text;
+			text-transform: 			uppercase;
+			line-height: 				1.1;
+		}
+
+		h5 {
+			font-family: 				$geo_light;
+			color: 						$red;
+			text-transform: 			uppercase;
+		}
+
+		p {
+			font-family: 				'Lucida sans';
+			font-size: 					$size_text;
+			color: 						$text;
+		}
 	}
-	#bg_line_services {
-		width: 					100%;
-		height: 				262px;
-		background: 			url('../images/bg_linhas_services.png') center no-repeat;
-		position: 				absolute;
-		top: 					calc(50% - 131px);
-		z-index: 				12;
+
+	.container-menu-bottom-service {
+		float: 							left;
+		margin-right: 					1px;
+		margin-top: 					calc(10% - 3.5em);
+		position: 						relative;
+
+		&:first-child {
+			margin-left: 				2.2em;
+		}
+
+		.Skew {
+			height: 					70px;
+			background: 				$red;
+			-webkit-transform: 			skew( -41deg );
+			   -moz-transform: 			skew( -41deg );
+			    -ms-transform: 			skew( -41deg );
+			     -o-transform: 			skew( -41deg );
+			        transform: 			skew( -41deg );
+			
+			&.sdg {
+				width: 					218px;
+			}
+
+			&.swd {
+				width: 					180px;
+			}
+
+			&.sec {
+				width: 					192px;
+			}
+
+			&.ssm {
+				width: 					300px;
+			}
+
+		}
+
+		h4 {
+			font-family: 				$geo_thin;
+			color: 						$white;
+			text-align: 				center;
+			text-transform: 			uppercase;
+			padding: 					0 30px;
+			margin-top: 				.85em;
+			position: 					absolute;
+			z-index: 					21;
+			top: 						0;
+		}
 	}
 }
