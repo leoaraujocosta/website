@@ -20,7 +20,7 @@ $(document).foundation({
 	orbit: {
 		animation: 'slide',
 		pause_on_hover: false,
-		animation_speed: 500,
+		animation_speed: 300,
 		navigation_arrows: false,
 		bullets: false,
 		timer: false,

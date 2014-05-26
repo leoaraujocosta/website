@@ -62,25 +62,36 @@
 
 			&.swd {
 				width: 					180px;
+				&+h4 {
+					margin: 			1.13em 2.08em;
+				}
 			}
 
 			&.sec {
 				width: 					192px;
+
+				&+h4 {
+					margin: 			1.13em 2.15em;
+				}
 			}
 
 			&.ssm {
 				width: 					300px;
+
+				&+h4 {
+					margin: 			1.13em 2.6em;
+				}
 			}
 
 		}
 
 		h4 {
 			font-family: 				$geo_thin;
+			font-size: 					$h4;
 			color: 						$white;
 			text-align: 				center;
 			text-transform: 			uppercase;
-			padding: 					0 30px;
-			margin-top: 				.85em;
+			margin: 					1.13em 2em;
 			position: 					absolute;
 			z-index: 					21;
 			top: 						0;
