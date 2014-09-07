@@ -1,0 +1,101 @@
+.container_process {
+	width: 								100%;
+	height: 							100%;
+	background-image: 					url('../images/bg2_services.png'), url('../images/bg_linhas_services.png');
+	background-repeat: 					no-repeat, no-repeat;
+	background-position: 				center, center;
+	background-color: 					$gray;
+	position: 							relative;
+	padding-top: 						110px;
+
+	.prs {
+
+		h2 {
+			font-family: 				$geo_regular;
+			font-size: 					$h2;
+			color: 						$red;
+			text-transform: 			uppercase;
+		}
+
+		h3 {
+			font-family: 				$geo_light;
+			font-size: 					$h3;
+			color: 						$text;
+			text-transform: 			uppercase;
+			line-height: 				1.1;
+		}
+
+		h5 {
+			font-family: 				$geo_light;
+			color: 						$red;
+			text-transform: 			uppercase;
+		}
+
+		p {
+			font-family: 				'Lucida sans';
+			font-size: 					$size_text;
+			color: 						$text;
+		}
+	}
+
+	.container-menu-bottom-process {
+		float: 							left;
+		margin-right: 					1px;
+		margin-top: 					calc(10% - 3.5em);
+		position: 						relative;
+
+		&:first-child {
+			margin-left: 				2.2em;
+		}
+
+		.Skew {
+			height: 					70px;
+			background: 				$red;
+			-webkit-transform: 			skew( -41deg );
+			   -moz-transform: 			skew( -41deg );
+			    -ms-transform: 			skew( -41deg );
+			     -o-transform: 			skew( -41deg );
+			        transform: 			skew( -41deg );
+			
+			&.pbf {
+				width: 					152px;
+			}
+
+			&.ppj {
+				width: 					205px;
+				&+h4 {
+					margin: 			1.13em 2.08em;
+				}
+			}
+
+			&.pdv {
+				width: 					232px;
+
+				&+h4 {
+					margin: 			1.13em 2.15em;
+				}
+			}
+
+			&.pti {
+				width: 					273px;
+
+				&+h4 {
+					margin: 			1.13em 2.6em;
+				}
+			}
+
+		}
+
+		h4 {
+			font-family: 				$geo_thin;
+			font-size: 					$h4;
+			color: 						$white;
+			text-align: 				center;
+			text-transform: 			uppercase;
+			margin: 					1.13em 2em;
+			position: 					absolute;
+			z-index: 					21;
+			top: 						0;
+		}
+	}
+}

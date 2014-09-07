@@ -50,5 +50,9 @@
 		background: 							url('../images/4.png') center center no-repeat;
 		margin-left: 							3em;
 		margin-right: 							.4em;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }

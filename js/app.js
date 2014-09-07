@@ -13,6 +13,8 @@ $(document).ready(function() {
 			});
 		});
 	});
+
+	scrollToElement();
 });
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
@@ -30,3 +32,12 @@ $(document).foundation({
 		next_on_click: false
 	}
 });
+
+function scrollToElement () {
+	var link = $('a, .logo4','.top-bar-section');
+
+	$(link).click(function(event) {
+		var el = $(this).attr('data-link');
+		$(el).animatescroll();
+	});
+}
