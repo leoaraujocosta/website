@@ -33,6 +33,7 @@ $(document).foundation({
 	}
 });
 
+// Animação do Scroll para sessão do site
 function scrollToElement () {
 	var link = $('a, .logo4','.top-bar-section');
 
@@ -41,15 +42,3 @@ function scrollToElement () {
 		$(el).animatescroll();
 	});
 }
-
-// $(window).scroll(function(){
-// 	var $navBar = $('.top-bar');
-// 	var navBar_offset = $navBar.offset().top - $(window).scrollTop();
-	
-// 	if(navBar_offset < 0){
-// 		$navBar.css({
-// 			position: 'fixed',
-// 			top: navBar_offset,
-// 		})
-// 	}
-// })
